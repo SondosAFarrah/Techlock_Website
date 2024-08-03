@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="con">
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="index.html" > <img src="./images/logo.png"></a>
+            <div class="nav-list">
+                <ul> 
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="album.html">Album</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="privacy.html">Privacy and Policy</a></li>
+                    <li><a href="terms.html">Terms and Conditions</a></li>
+                    <li><a href="faqs.html">FAQs</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+
+        <h1>Contact Us</h1>
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <p>We'd love to hear from you! Please fill out the form below, and we'll get back to you as soon as possible.</p>
+            
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+            
+            <div id="contact-info">
+                <h2>Contact Information</h2>
+                <p><strong>Email:</strong> <a href="mailto:info@techlock.com">info@techlock.com</a></p>
+                <p><strong>Phone:</strong> (123) 456-7890</p>
+                <p><strong>Address:</strong> Ramallah, Palestine</p>
+            </div>
+        </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 High Performance Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
